@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "9d16f49b-f38e-4052-ad4a-c78e9ee0d881",
+		"name": "assignment8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31133724"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "signUp",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "softdelete",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "confirmEmail",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "unsubscribeuser",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "changepassword",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "view",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "uploadprofileimage",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "uploadcoverphoto",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "auth1",
+								"value": "yasmin--eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTk1NmYwNjFiNjcxMGUwN2U1NzQ2ZDYiLCJlbWFpbCI6Inlhc28ueWFzc2VyMDU1QGdtYWlsLmNvbSIsImlhdCI6MTcwNDU1Mjc0NywiZXhwIjoxNzA0NTU2MzQ3fQ.BZox11zledwr2h5OMBzj4oG04-kBJWNE1Wi1Vu08gDM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "myphoto",
+									"type": "file",
+									"src": [
+										"/C:/Users/Yasmin/Pictures/80020541_585082082036187_6322624186825048064_n (2).jpg",
+										"/C:/Users/Yasmin/Pictures/80020541_585082082036187_6322624186825048064_n.jpg",
+										"/C:/Users/Yasmin/Pictures/DOC-20191224-WA0017(4)_2.jpg",
+										"/C:/Users/Yasmin/Pictures/DOC-20191224-WA0017(4)_3.jpg",
+										"/C:/Users/Yasmin/Pictures/g.jpg"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/uploadcoverphoto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"uploadcoverphoto"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "task",
+			"item": [
+				{
+					"name": "addtask",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "updatetask",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "taskWuser",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "specifictask",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "incompletetasks",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "uploadattachmen",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
